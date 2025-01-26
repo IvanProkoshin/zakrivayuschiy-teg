@@ -177,6 +177,7 @@
 }
 
 .card__text {
+  font-variation-settings: var(--regularFont);
   font-size: 18px;
   line-height: 117%;
 }
