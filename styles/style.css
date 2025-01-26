@@ -24,7 +24,7 @@
 
   inline-size: 100%;
 
-  font-family: Inter-Variable;
+  font-family: Inter-Variable, Arial, sans-serif;
   font-variation-settings: var(--regularFont);
 
   background-color: var(--backgroundColor);
@@ -52,13 +52,13 @@
 }
 
 .header__title {
-  font-family: PressStart2P-Regular;
+  font-family: PressStart2P-Regular, 'Courier New', monospace;
   font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
   font-weight: 400;
 }
 
 .header__text {
-  font-family: PressStart2P-Regular;
+  font-family: PressStart2P-Regular, 'Courier New', monospace;
   font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
   font-weight: 400;
 
@@ -74,7 +74,7 @@
 .theme-menu__button {
   position: relative;
   left: 10px;
-  font-family: PressStart2P-Regular;
+  font-family: PressStart2P-Regular, 'Courier New', monospace;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
