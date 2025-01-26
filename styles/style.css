@@ -269,6 +269,14 @@
 }
 
 .footer__save-button {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 6px 15px;
+
   font-family: PressStart2P-Regular;
   font-size: 14px;
   font-weight: 400;
@@ -276,8 +284,6 @@
 
   background: var(--backgroundColor);
   border: 2px solid var(--primaryColor);
-
-  text-align: center;
 
   inline-size: clamp(19.125rem, 17.0337rem + 8.9231vw, 20.9375rem);
   block-size: clamp(3.4375rem, 7.3413rem - 8.9231vw, 5.25rem);
