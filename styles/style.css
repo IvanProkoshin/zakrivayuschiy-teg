@@ -29,7 +29,7 @@
 
   background-color: var(--backgroundColor);
   background-image: var(--backgroundImage);
-  background-size: 3px auto;
+  background-size: 4px auto;
 
   color: var(--primaryColor);
 }
