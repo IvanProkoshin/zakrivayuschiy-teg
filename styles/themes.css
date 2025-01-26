@@ -9,6 +9,9 @@
   --backgroundColor: black;
   --backgroundImage: url(../svg/pattern-dark.svg);
   --primaryColor: #00cc14;
+
+  --regularFont: 'wght' 465, 'wdth' 100, 'opsz' 0;
+  --accentFont: 'wght' 785, 'wdth' 100, 'opsz' 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +19,9 @@
     --backgroundColor: black;
     --backgroundImage: url(../svg/pattern-dark.svg);
     --primaryColor: #00cc14;
+
+    --regularFont: 'wght' 465, 'wdth' 100, 'opsz' 0;
+    --accentFont: 'wght' 785, 'wdth' 100, 'opsz' 0;
   }
 }
 
@@ -23,6 +29,9 @@
   --backgroundColor: white;
   --backgroundImage: url(../svg/pattern-light.svg);
   --primaryColor: black;
+
+  --regularFont: 'wght' 400, 'wdth' 100, 'opsz' 0;
+  --accentFont: 'wght' 700, 'wdth' 100, 'opsz' 0;
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,5 +39,8 @@
     --backgroundColor: white;
     --backgroundImage: url(../svg/pattern-light.svg);
     --primaryColor: black;
+
+    --regularFont: 'wght' 400, 'wdth' 100, 'opsz' 0;
+    --accentFont: 'wght' 700, 'wdth' 100, 'opsz' 0;
   }
 }

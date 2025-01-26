@@ -3,4 +3,7 @@
   --backgroundColor: white;
   --backgroundImage: url(../svg/pattern-light.svg);
   --primaryColor: black;
+
+  --regularFont: 'wght' 400, 'wdth' 100, 'opsz' 0;
+  --accentFont: 'wght' 700, 'wdth' 100, 'opsz' 0;
 }
