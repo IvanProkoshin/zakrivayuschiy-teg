@@ -72,11 +72,6 @@
   fill: red;
 }
 
-.like-icon.is-liked .sparks {
-  transition: opacity 0.3s 0.09s linear;
-  opacity: 1;
-}
-
 .like-icon.is-liked .heart {
   transform-origin: center;
   animation: heart-animation 0.3s 0.1s ease-in alternate;
