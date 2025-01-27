@@ -234,8 +234,7 @@
 
   cursor: pointer;
 
-  transition: color 1s ease;
-  transition: box-shadow 0.3s ease;
+  transition: color 1s ease, box-shadow 0.3s ease;
 
   z-index: 1;
 }
@@ -269,7 +268,6 @@
 
 .button:focus-visible {
   outline: none;
-
   box-shadow: var(--primaryColor) 2px 2px;
 }
 
