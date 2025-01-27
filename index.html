@@ -7,6 +7,7 @@
     <title>Закрывающий тег</title>
     <link rel="icon" href="./icons/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -45,8 +46,8 @@
           <p class="card__text">Место для ваших воспоминаний о начале обучения.</p>
         </div>
         <div class="card__like-button-box">
-          <button type="button" class="card__icon-button" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36">
+          <button type="button" class="card__icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" class="like-icon" width="39" height="36" aria-hidden="true">
               <g class="heart">
                 <use href="./svg/heart.svg#contour" class="contour"></use>
                 <use href="./svg/heart.svg#main-body" class="main-body" />
@@ -60,15 +61,13 @@
           </button>
         </div>
       </article>
-    </main>
-    <footer class="footer">
-      <button type="button" class="button footer__save-button">
+      <button type="button" class="button save-button">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" aria-hidden="true" class="icon-floppy">
           <use href="./svg/floppy.svg#floppy" />
         </svg>
         <span class="button__text">Сохранить&nbsp;на&nbsp;память</span>
       </button>
-    </footer>
+    </main>
     <script src="./scripts/set-theme.js"></script>
     <script src="./scripts/like.js"></script>
   </body>
